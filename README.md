@@ -1,7 +1,6 @@
 # ember-csz
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Simple [Ember.js](https://emberjs.com) app to showcase styling using [csz](http://github.com/lukejacksonn/csz)
 
 ## Prerequisites
 
