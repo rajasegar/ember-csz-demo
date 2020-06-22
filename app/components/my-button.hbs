@@ -1,1 +1,15 @@
-<button class={{ if @primary (csz "color:blue") (csz "color:red") }} >{{yield}}</button>
+<button class={{ if @primary (csz "
+        color:white;
+        background:palevioletred;
+        font-size: 1em;
+  margin: 1em;
+  padding: 0.25em 1em;
+  border: 2px solid palevioletred;
+  border-radius: 3px;") (csz "
+                      background:white;
+                      color:palevioletred;
+                      font-size: 1em;
+  margin: 1em;
+  padding: 0.25em 1em;
+  border: 2px solid palevioletred;
+  border-radius: 3px;") }} >{{yield}}</button>
